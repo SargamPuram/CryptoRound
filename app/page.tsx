@@ -996,7 +996,7 @@ export default function Home() {
             <div>
               <h3 className="text-lg font-bold mb-4">Contact</h3>
               <ul className="space-y-2">
-                <li className="text-gray-300">hello@cryptoround.in</li>
+                <li className="text-gray-300">sargampuram3@gmail.com</li>
                 <li>
                   <Link href="#" className="text-gray-300 hover:text-white transition-colors">
                     Privacy Policy
