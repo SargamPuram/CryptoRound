@@ -1,0 +1,107 @@
+<svg width="600" height="500" viewBox="0 0 600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <rect width="600" height="500" rx="8" fill="none" />
+  
+  <!-- UPI Box -->
+  <rect x="50" y="80" width="120" height="80" rx="8" fill="#1E1E2A" stroke="#3A86FF" stroke-width="2" />
+  <text x="110" y="120" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">UPI / Cards</text>
+  <text x="110" y="140" font-family="Arial" font-size="12" fill="#AAAAAA" text-anchor="middle">Payment Source</text>
+  
+  <!-- CryptoRound Box -->
+  <rect x="240" y="80" width="120" height="80" rx="8" fill="#1E1E2A" stroke="#3A86FF" stroke-width="2" />
+  <text x="300" y="120" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">CryptoRound</text>
+  <text x="300" y="140" font-family="Arial" font-size="12" fill="#AAAAAA" text-anchor="middle">Round-Up Engine</text>
+  
+  <!-- CoinDCX Box -->
+  <rect x="430" y="80" width="120" height="80" rx="8" fill="#1E1E2A" stroke="#3A86FF" stroke-width="2" />
+  <text x="490" y="120" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">CoinDCX</text>
+  <text x="490" y="140" font-family="Arial" font-size="12" fill="#AAAAAA" text-anchor="middle">Crypto Exchange</text>
+  
+  <!-- Transaction Monitoring -->
+  <rect x="145" y="220" width="120" height="80" rx="8" fill="#1E1E2A" stroke="#00F5D4" stroke-width="2" />
+  <text x="205" y="260" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">Transaction</text>
+  <text x="205" y="280" font-family="Arial" font-size="12" fill="#AAAAAA" text-anchor="middle">Monitoring</text>
+  
+  <!-- Calculate Round-up -->
+  <rect x="335" y="220" width="120" height="80" rx="8" fill="#1E1E2A" stroke="#FF006E" stroke-width="2" />
+  <text x="395" y="260" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">Calculate</text>
+  <text x="395" y="280" font-family="Arial" font-size="12" fill="#AAAAAA" text-anchor="middle">Round-up Amount</text>
+  
+  <!-- Solana Wallet Box -->
+  <rect x="240" y="360" width="120" height="80" rx="8" fill="#1E1E2A" stroke="#00F5D4" stroke-width="2" />
+  <text x="300" y="400" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">Solana Wallet</text>
+  <text x="300" y="420" font-family="Arial" font-size="12" fill="#AAAAAA" text-anchor="middle">Asset Storage</text>
+  
+  <!-- Arrows -->
+  <path d="M170 80L170 60L240 60L240 80" stroke="#3A86FF" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M360 80L360 60L430 60L430 80" stroke="#3A86FF" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M110 160L110 220L145 220" stroke="#00F5D4" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M490 160L490 220L455 220" stroke="#00F5D4" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M265 160L205 220" stroke="#00F5D4" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M335 160L395 220" stroke="#FF006E" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M205 300L205 400L240 400" stroke="#00F5D4" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M395 300L395 400L360 400" stroke="#FF006E" stroke-width="2" stroke-dasharray="4 4" />
+  
+  <!-- Arrow Heads -->
+  <polygon points="235,60 240,57 240,63" fill="#3A86FF" />
+  <polygon points="425,60 430,57 430,63" fill="#3A86FF" />
+  <polygon points="140,220 145,217 145,223" fill="#00F5D4" />
+  <polygon points="450,220 455,217 455,223" fill="#00F5D4" />
+  <polygon points="205,215 210,220 200,225" fill="#00F5D4" />
+  <polygon points="395,215 400,220 390,225" fill="#FF006E" />
+  <polygon points="235,400 240,397 240,403" fill="#00F5D4" />
+  <polygon points="355,400 360,397 360,403" fill="#FF006E" />
+  
+  <!-- Glowing Effects -->
+  <circle cx="110" cy="120" r="40" fill="url(#glow1)" fill-opacity="0.2" />
+  <circle cx="300" cy="120" r="40" fill="url(#glow2)" fill-opacity="0.2" />
+  <circle cx="490" cy="120" r="40" fill="url(#glow3)" fill-opacity="0.2" />
+  <circle cx="205" cy="260" r="40" fill="url(#glow4)" fill-opacity="0.2" />
+  <circle cx="395" cy="260" r="40" fill="url(#glow5)" fill-opacity="0.2" />
+  <circle cx="300" cy="400" r="40" fill="url(#glow6)" fill-opacity="0.2" />
+  
+  <!-- Solana Logo -->
+  <circle cx="300" cy="30" r="20" fill="#1A1F2A" />
+  <path d="M290 37L293 40H307L304 37H290Z" fill="url(#paint1_linear)" />
+  <path d="M290 23H304L307 20H293L290 23Z" fill="url(#paint2_linear)" />
+  <path d="M290 30H304L307 27H293L290 30Z" fill="url(#paint3_linear)" />
+  
+  <defs>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(110 120) rotate(90) scale(40)">
+      <stop stop-color="#3A86FF" />
+      <stop offset="1" stop-color="#3A86FF" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 120) rotate(90) scale(40)">
+      <stop stop-color="#3A86FF" />
+      <stop offset="1" stop-color="#3A86FF" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(490 120) rotate(90) scale(40)">
+      <stop stop-color="#3A86FF" />
+      <stop offset="1" stop-color="#3A86FF" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow4" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(205 260) rotate(90) scale(40)">
+      <stop stop-color="#00F5D4" />
+      <stop offset="1" stop-color="#00F5D4" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow5" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(395 260) rotate(90) scale(40)">
+      <stop stop-color="#FF006E" />
+      <stop offset="1" stop-color="#FF006E" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow6" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 400) rotate(90) scale(40)">
+      <stop stop-color="#00F5D4" />
+      <stop offset="1" stop-color="#00F5D4" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="paint1_linear" x1="290" y1="38.5" x2="307" y2="38.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3A86FF" />
+      <stop offset="1" stop-color="#00F5D4" />
+    </linearGradient>
+    <linearGradient id="paint2_linear" x1="290" y1="21.5" x2="307" y2="21.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3A86FF" />
+      <stop offset="1" stop-color="#00F5D4" />
+    </linearGradient>
+    <linearGradient id="paint3_linear" x1="290" y1="28.5" x2="307" y2="28.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3A86FF" />
+      <stop offset="1" stop-color="#00F5D4" />
+    </linearGradient>
+  </defs>
+</svg>

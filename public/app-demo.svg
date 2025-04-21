@@ -1,0 +1,54 @@
+<svg width="600" height="450" viewBox="0 0 600 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Phone Frame -->
+  <rect x="150" y="25" width="300" height="400" rx="20" fill="#3D3D3D" />
+  <rect x="160" y="35" width="280" height="380" rx="12" fill="#1A1A1A" />
+  
+  <!-- Status Bar -->
+  <rect x="160" y="35" width="280" height="30" rx="12" fill="#252525" />
+  <circle cx="180" cy="50" r="5" fill="#14F195" />
+  <rect x="190" y="47" width="30" height="6" rx="3" fill="#FFFFFF" />
+  <rect x="390" y="47" width="30" height="6" rx="3" fill="#FFFFFF" />
+  
+  <!-- App Header -->
+  <rect x="160" y="65" width="280" height="50" rx="0" fill="#9945FF" />
+  <circle cx="190" cy="90" r="15" fill="white" fill-opacity="0.2" />
+  <text x="300" y="95" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">CryptoRound</text>
+  
+  <!-- Balance Card -->
+  <rect x="180" y="130" width="240" height="100" rx="10" fill="#252525" />
+  <text x="300" y="160" font-family="Arial" font-size="12" fill="#AAAAAA" text-anchor="middle">Total Invested</text>
+  <text x="300" y="190" font-family="Arial" font-size="24" fill="white" text-anchor="middle" font-weight="bold">₹1,248.35</text>
+  <rect x="220" y="210" width="160" height="8" rx="4" fill="#9945FF" fill-opacity="0.3" />
+  <rect x="220" y="210" width="80" height="8" rx="4" fill="#9945FF" />
+  
+  <!-- Round-Up Settings -->
+  <rect x="180" y="245" width="240" height="60" rx="10" fill="#252525" />
+  <text x="210" y="275" font-family="Arial" font-size="14" fill="white">Round-Up Rule</text>
+  <rect x="320" y="260" width="80" height="30" rx="15" fill="#9945FF" />
+  <text x="360" y="280" font-family="Arial" font-size="14" fill="white" text-anchor="middle">₹10</text>
+  
+  <!-- Recent Transactions -->
+  <rect x="180" y="320" width="240" height="80" rx="10" fill="#252525" />
+  <text x="200" y="345" font-family="Arial" font-size="14" fill="white">Recent Round-Ups</text>
+  
+  <!-- Transaction 1 -->
+  <circle cx="200" cy="370" r="8" fill="#14F195" />
+  <text x="220" y="375" font-family="Arial" font-size="12" fill="white">Coffee Shop</text>
+  <text x="380" y="375" font-family="Arial" font-size="12" fill="#14F195" text-anchor="end">+₹7</text>
+  
+  <!-- Bottom Navigation -->
+  <rect x="160" y="385" width="280" height="30" rx="0" fill="#252525" />
+  <circle cx="200" cy="400" r="8" fill="#9945FF" />
+  <circle cx="300" cy="400" r="8" fill="#666666" />
+  <circle cx="400" cy="400" r="8" fill="#666666" />
+  
+  <!-- Gradient Overlay -->
+  <rect x="160" y="35" width="280" height="380" rx="12" fill="url(#paint0_linear)" fill-opacity="0.05" />
+  
+  <defs>
+    <linearGradient id="paint0_linear" x1="160" y1="35" x2="440" y2="415" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9945FF" />
+      <stop offset="1" stop-color="#14F195" />
+    </linearGradient>
+  </defs>
+</svg>
